@@ -13,4 +13,6 @@ public:
 
 private:
     Ui::QT_Heritage_TP2Class ui;
+	QLineEdit_Histo *lineHisto;
+	
 };

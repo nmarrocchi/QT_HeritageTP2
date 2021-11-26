@@ -3,7 +3,13 @@
 #include <qmessagebox.h>
 #include "ui_QT_Heritage_TP2.h"
 
-QLineEdit_Histo::QLineEdit_Histo (QWidget *parent)
+
+#include <QLineEdit>
+#include <QLabel>
+#include <qmessagebox.h>
+
+// - Construct
+QLineEdit_Histo::QLineEdit_Histo(QWidget *parent) : QLineEdit(parent)
 {
 	QObject::connect(this, SIGNAL(returnPressed()), this, SLOT(insertHisto()));
 }

@@ -53,4 +53,7 @@
   <include location="QT_Heritage_TP2.qrc"/>
  </resources>
  <connections/>
+ <slots>
+  <slot>insertHisto()</slot>
+ </slots>
 </ui>
